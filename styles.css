@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #d2d2d2;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 3px 0;
+}
+
+#tech img {
+    height: 30px;
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+}
+
+#main_container {
+    /* max-width: 800px; */
+    width: 75%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#main_container h3 {
+    margin: 0px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    /* padding: 10px; */
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.project a {
+    display: block;
+    height: 100%;
+    padding: 10px;
+    /* border: 2px solid #ddd;
+    border-radius: 7px; */
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.7s ease; /* Smooth transition for color change */
+    font-size: 10pt;
+    background-color: #eaebf2;
+}
+
+.project a:hover {
+    background-color: #d3daff; /* Change to the desired color on hover */
+}
+
+.project img {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
