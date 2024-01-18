@@ -19,57 +19,131 @@ p {
     margin: 3px 0;
 }
 
-#tech img {
-    height: 30px;
-    width: auto;
-    margin: 0px;
-    padding: 5px;
-}
-
-#main_container {
-    /* max-width: 800px; */
+.main_container {
     width: 75%;
     margin: 10px auto;
     padding: 5px;
 }
 
-#main_container h3 {
+.main_container h4 {
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.projects-container h3 {
     margin: 0px;
 }
 
-.project {
-    margin-bottom: 20px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    /* padding: 10px; */
-    width: 25%;
-    min-height: 200px;
-    text-align: center;
-    overflow: hidden;
+.projects-container h4 {
+    margin: 0px;
 }
 
-.project a {
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    display: block;
+    min-height: 200px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 31.5%;
+    text-align: center;
+    color: inherit;
+    margin: 0.5%;
+}
+
+.project-item a {
     display: block;
     height: 100%;
-    padding: 10px;
-    /* border: 2px solid #ddd;
-    border-radius: 7px; */
     text-decoration: none;
     color: inherit;
-    transition: background-color 0.7s ease; /* Smooth transition for color change */
+    transition: background-color 0.7s ease;
     font-size: 10pt;
     background-color: #eaebf2;
 }
 
-.project a:hover {
-    background-color: #d3daff; /* Change to the desired color on hover */
-}
-
-.project img {
+.project-item img {
     width: auto;
     height: 100px;
     padding: 10px;
-    /* border-bottom: 1px solid #ddd; */
+    border-radius: 15px;
+}
+
+.project-item a:hover {
+    background-color: #d3daff;
+}
+
+.small-project-item {
+    display: block;
+    /* height: 100%; */
+    min-height: 150px;
+    /* padding: 10px; */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 18.5%;
+    text-align: center;
+    color: inherit;
+    margin: 0.5%;
+}
+
+.small-project-item a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.7s ease;
+    font-size: 8pt;
+    background-color: #eaebf2;
+}
+
+.small-project-item img {
+    width: auto;
+    height: 60px;
+    padding: 8px;
+    border-radius: 13px;
+}
+
+.small-project-item a:hover {
+    background-color: #d3daff;
+}
+
+#tech img {
+    height: 30px;
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+#tech-small img {
+    height: 20px;
+    width: auto;
+    margin: 0px;
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.skill-item {
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    color: inherit;
+    margin: 0.5%;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.skill-item img {
+    height: 22px;
+    width: auto;
+    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 3px; 
+    vertical-align: middle;
 }
 
 footer {
